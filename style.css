@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    max-width: 80vw;
+}
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 59px;
+}
+.navbar li{
+    list-style:none;
+    margin:15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black !important;
+}
+.topleft{
+    width: 50%;
+    height: 540px;
+}
+
+.topright{
+    width: 50%;
+    height: 380px;
+}
+
+.topright img{
+    margin-top:50px;
+    height: 400px;
+    padding: 0 150px;
+}
+
+.section2{
+    padding: 0 66px;;
+}
+
+.section2 p{
+    padding: 26px 0px;;
+}
+
+.dumbellimg{
+    width: 179px;
+    padding: 0 170px;
+}
+.box{
+    border-radius:8px;
+    padding: 8px 0;
+    margin: 12px 12px;
+    min-width: 20vw;
+    border: 2px solid black;
+}
+.boxes{
+    margin-bottom: 50px;
+}
+.box ul{
+    list-style: none;
+}
+.box h2{
+    padding-bottom: 10px;
+    background-color:white;
+}
+.box ul li{
+   margin: 15px 2px;
+}
+/* for table */
+.table ul{
+    list-style: none;
+    font-size: bold;
+}
+.list{
+    font-weight: bold;  
+    position:relative;
+    left: 42%;
+    margin: auto 70px;
+}
+
+.lists li{
+    
+    margin: 0px 140px;
+    padding: 13px 70px;
+}
+.plantable{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.section3 table{
+    width: 80%;
+    margin: 16px 0;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    padding: 12px 0;;
+    border-bottom: 1px solid rgb(2, 206, 2);
+}
+.text-start {
+    text-align: left!important;
+}
+.section3 table td{
+    border-bottom: 1px solid rgb(2, 206, 2);
+    width:22%;
+}
+
+.section3{
+    padding-left: 63px;
+    padding-right: 63px;
+    height:500px;
+}
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: -136%;
+    height:34px;
+    width:100%;
+    text-align: center;
+ }
+ .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+ .buttons .btn{
+  margin: 0 3px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+    color:brown
+}
